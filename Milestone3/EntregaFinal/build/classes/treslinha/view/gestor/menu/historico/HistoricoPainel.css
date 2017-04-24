@@ -1,0 +1,9 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.historicoPane {
+    -fx-background-image: url("../../../../../resources/treslinha/images/gestor/HistoricoPainelBackground.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: stretch;
+}

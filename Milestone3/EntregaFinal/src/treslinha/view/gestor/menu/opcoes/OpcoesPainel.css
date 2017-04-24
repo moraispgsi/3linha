@@ -1,0 +1,9 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.opcoesPane {
+    -fx-background-image: url("../../../../../resources/treslinha/images/gestor/OpcoesPainelBackground.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: stretch;
+}

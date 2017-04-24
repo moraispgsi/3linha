@@ -1,0 +1,29 @@
+O utilizador deverá poder decidir o que quer registar: as jogadas, o tempo das jogadas, o tipo de jogo etc…
+
+Número de jogos jogados por cada um dos 10 melhores jogadores.
+b. Tempo médio de jogo por jogador (dos 10 melhores Jogadores).
+c. Pontuação Máxima por jogador (dos 10 melhores Jogadores).
+d. Percentagem de jogos jogados em cada um dos tipos e variantes de pontuação. (War, Halloween,Smiles, etc..)
+e. Percentagem de jogos jogados por tema escolhido (War, Halloween,Smiles, etc..)
+
+
+
+
+Pontuação
+Existem duas versões de Pontuação:
+? Base – 20 pontos por cada peça destruída.
+? Corrida – Começa-se o jogo com 1000 pontos, e ganha-se 10 pontos por cada peça destruída e perde-se um ponto por cada 10 segundos gastos.
+Também deve ser considerado que o jogo pode ter duas variantes, uma normal e uma rápida. Na versão rápida o jogo tem uma limitação máxima de 20 jogadas.
+
+
+Dados gerais:
+
+-Numero de peças destruidas
+-Tempo de jogo
+
+
+Tipo de jogo:
+Normal
+Rápido
+
+

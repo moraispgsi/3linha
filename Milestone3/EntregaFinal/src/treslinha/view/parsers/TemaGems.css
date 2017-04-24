@@ -1,0 +1,49 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    
+    -fx-background-image: url("../../../resources/treslinha/images/gems/PainelJogoGems.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: stretch;
+    
+}
+
+#aimLine {
+    
+    -fx-stroke: deepskyblue;
+    
+}
+
+#Peca1 {
+    
+    
+    -fx-image: url("../../../resources/treslinha/images/gems/Gem1.png");
+
+}
+#Peca2 {
+    
+    -fx-image: url("../../../resources/treslinha/images/gems/Gem2.png");
+
+}
+#Peca3 {
+    
+    -fx-image: url("../../../resources/treslinha/images/gems/Gem3.png");
+
+}
+#Peca4 {
+    
+    -fx-image: url("../../../resources/treslinha/images/gems/Gem4.png");
+
+}
+#Peca5 {
+    
+    -fx-image: url("../../../resources/treslinha/images/gems/Gem5.png");
+
+}
+#PecaCaveira{
+    
+    -fx-image: url("../../../resources/treslinha/images/gems/Gem6.png");
+
+}

@@ -1,0 +1,58 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    
+    -fx-background-image: url("../../../resources/treslinha/images/halloween/PainelJogoHalloween.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: stretch;
+    
+}
+
+#aimLine {
+    
+    -fx-stroke: black;
+    
+}
+
+#lowerBarText {
+    
+    -fx-text-fill: linear-gradient(to bottom,  #f5a000 100%,#f28f00 100%);
+    -fx-font-size: 10;
+    //-fx-font-family: 'Tombstone';
+    
+
+    
+}
+
+#Peca1 {
+    
+    -fx-image: url("../../../resources/treslinha/images/halloween/Halloween1.png");
+
+}
+#Peca2 {
+    
+    -fx-image: url("../../../resources/treslinha/images/halloween/Halloween2.png");
+
+}
+#Peca3 {
+    
+    -fx-image: url("../../../resources/treslinha/images/halloween/Halloween3.png");
+
+}
+#Peca4 {
+    
+    -fx-image: url("../../../resources/treslinha/images/halloween/Halloween4.png");
+
+}
+#Peca5 {
+    
+    -fx-image: url("../../../resources/treslinha/images/halloween/Halloween5.png");
+
+}
+#PecaCaveira{
+    
+    -fx-image: url("../../../resources/treslinha/images/halloween/Halloween6.png");
+
+}

@@ -1,0 +1,71 @@
+
+#fontSize: 12
+
+#padding: 10
+#edges: hard
+
+#leading: 1.5
+#lineWidth: 1
+#bendSize: 1.3
+#arrowSize: 1
+#fontSize: 12
+#spacing: 100
+#padding: 10
+#edges: hard
+#direction: right
+#leading: 2.5
+#lineWidth: 1
+#bendSize: 0.3
+
+[GestorDeJogosTresLinha|
+-capacidadeHistorico:int;
+-numeroLinhas:int;
+-numeroCapacidadeLinha:int;
+-geradorIdJogos:AtomicInteger;
+-loggerJogos:LoggerJogo;
+-logger:LoggerGestor;
+-comparador:Comparador;
+-rankingBase:Ranking;
+-rankingCorrida:Ranking;
+-jogadores:List;
+-jogosConcluidos:List;
+-historicosJogadores:List;
+-estrategiaBase:EstrategiaPontuacao;
+-estrategiaCorrida:EstrategiaPontuacao;
+-mapJogoParaRanking:Map;
+-mapJogoParaJogador:Map;
+-mapTipoPontuacaoParaJogo:Map;
+-mapTipoPontucaoParaRanking:Map;
+-mapTipoPontucaoParaEstrategia:Map;
+-mapJogadorParaHistorico:Map;
+-mapTipoJogoParaJogo:Map
+|+getNumeroJogos10MelhoresJogadores(TipoPontuacao):Map;
++update(Observable,Object):void;
++criarJogo(String,Tema,TipoPontuacao,TipoJogo):JogoTresLinha;
++getNumeroLinhas():int;
+-registarJogador(String):Jogador;
++getJogadores():List;
+ handleFimJogo(JogoTresLinha):void;
++getRankingBase():Ranking;
+ registarRanking(JogoTresLinha):void;
++getPontuacaoMaxima10Melhores(TipoPontuacao):Map;
++getMediaTempoPorJogo10Melhores(TipoPontuacao):Map;
++getNumeroJogosConcluidos(TipoJogo,TipoPontuacao):long;
+-registarHistorico(JogoTresLinha):void;
++getNumeroCapacidadeLinha():int;
++getJogosConcluidos():List;
++getRankingCorrida():Ranking]
+
+
+[GestorDeJogosTresLinha]o-1[mapJogoParaRanking:Map | [JogoTresLinha] 1-1 [Ranking]]
+[GestorDeJogosTresLinha]o-1[mapJogoParaJogador:Map | [JogoTresLinha] 1-1[Jogador]]
+[GestorDeJogosTresLinha]o-1[mapTipoPontuacaoParaJogo:Map | [TipoPontuacao] 1-n [JogoTresLinha]]
+[GestorDeJogosTresLinha]o-1[mapTipoPontucaoParaRanking:Map | [TipoPontuacao] 1-1 [Ranking]]
+
+[GestorDeJogosTresLinha]o-1[mapTipoPontucaoParaEstrategia:Map | [TipoPontuacao] 1-1 [EstrategiaPontuacao]]
+
+[GestorDeJogosTresLinha]o-1[mapJogadorParaHistorico:Map | [Jogador] 1-1[Historico]]
+
+[GestorDeJogosTresLinha]o-1[mapTipoJogoParaJogo:Map | [TipoJogo] 1-n [JogoTresLinha]]
+
+

@@ -1,0 +1,9 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.estatisticasPane {
+    -fx-background-image: url("../../../../../resources/treslinha/images/gestor/EstatisticasPainelBackground.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: stretch;
+}

@@ -1,0 +1,20 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.novoJogoPainel {
+    -fx-background-image: url("../../../../../resources/treslinha/images/gestor/novoJogoPainelBackground.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: stretch;
+}
+
+.combo-box-popup .list-view {
+    -fx-font-size : 10;
+}
+
+
+
+.combo-box {
+    
+    -fx-font-size : 10;
+}

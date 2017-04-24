@@ -1,0 +1,55 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    
+    -fx-background-image: url("../../../resources/treslinha/images/war/PainelJogoWar.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: stretch;
+    
+}
+
+
+
+
+#lowerBarText {
+    
+    -fx-text-fill: red;
+    
+
+    -fx-font-size: 10;
+    //-fx-font-family: 'War Wound';
+
+}
+
+#Peca1 {
+    
+    -fx-image: url("../../../resources/treslinha/images/war/War1.png");
+
+}
+#Peca2 {
+    
+    -fx-image: url("../../../resources/treslinha/images/war/War2.png");
+
+}
+#Peca3 {
+    
+    -fx-image: url("../../../resources/treslinha/images/war/War3.png");
+
+}
+#Peca4 {
+    
+    -fx-image: url("../../../resources/treslinha/images/war/War4.png");
+
+}
+#Peca5 {
+    
+    -fx-image: url("../../../resources/treslinha/images/war/War5.png");
+
+}
+#PecaCaveira{
+    
+    -fx-image: url("../../../resources/treslinha/images/war/War6.png");
+
+}

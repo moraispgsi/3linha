@@ -1,0 +1,9 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.menuPrincipalPainel {
+    -fx-background-image: url("../../../../../resources/treslinha/images/gestor/MenuPrincipalPainelBackground.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: stretch;
+}

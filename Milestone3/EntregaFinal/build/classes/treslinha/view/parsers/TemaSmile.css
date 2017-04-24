@@ -1,0 +1,55 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    
+    -fx-background-image: url("../../../resources/treslinha/images/smile/PainelJogoSmile.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: stretch;
+    
+}
+
+#aimLine {
+    
+    -fx-stroke: #f28f00;
+    
+}
+
+#lowerBarText {
+    
+    -fx-font-size: 12;
+    //-fx-font-family: 'War Wound';
+    
+}
+
+#Peca1 {
+    
+    -fx-image: url("../../../resources/treslinha/images/smile/Smile1.png");
+
+}
+#Peca2 {
+    
+    -fx-image: url("../../../resources/treslinha/images/smile/Smile2.png");
+
+}
+#Peca3 {
+    
+    -fx-image: url("../../../resources/treslinha/images/smile/Smile3.png");
+
+}
+#Peca4 {
+    
+    -fx-image: url("../../../resources/treslinha/images/smile/Smile4.png");
+
+}
+#Peca5 {
+    
+    -fx-image: url("../../../resources/treslinha/images/smile/Smile5.png");
+
+}
+#PecaCaveira{
+    
+    -fx-image: url("../../../resources/treslinha/images/smile/Smile6.png");
+
+}

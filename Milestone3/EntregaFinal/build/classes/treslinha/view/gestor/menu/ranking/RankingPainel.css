@@ -1,0 +1,9 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.rankingPane {
+    -fx-background-image: url("../../../../../resources/treslinha/images/gestor/RankingPainelBackground.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: stretch;
+}
